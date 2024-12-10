@@ -19,8 +19,6 @@ for (let i = 0; i < input.length; i++) {
   }
 }
 
-console.log(memoryAlocation);
-
 for (let i = memoryAlocation.length - 1; i >= 0; i--) {
   if (memoryAlocation[i] !== ".") {
     const removed = memoryAlocation.splice(i, 1);
